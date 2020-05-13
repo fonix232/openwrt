@@ -210,6 +210,14 @@ define Device/rakwireless_rak633
 endef
 TARGET_DEVICES += rakwireless_rak633
 
+define Device/ravpower_wd009
+  IMAGE_SIZE := 16064k
+  DEVICE_VENDOR := Ravpower
+  DEVICE_MODEL := WD009
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
+endef
+TARGET_DEVICES += ravpower_wd009
+
 define Device/skylab_skw92a
   IMAGE_SIZE := 16064k
   DEVICE_VENDOR := Skylab
